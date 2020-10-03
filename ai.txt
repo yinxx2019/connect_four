@@ -1,0 +1,13 @@
+Q. Did you attempt to make your computer player very smart -- i.e., 
+do something more clever than just pick a random legal move?
+A. Yes. Originally I just used random to select a random position but the game tured to be super boring so I learned minimax algorithm online and implemented it in this assignment.
+    
+Q.If so, were you able to accomplish this? Is your computer player as smart as you would like?
+A. Yes. The minimax algorithm helps my AI to find the best position to set the disk and it is even smarter than me.
+
+Q.How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+A.The major principle of my AI is to find places that can form 4 in a row to win. It also monitors if the human player has 3 in a row, horizontally, vertically, diagonally and will block the player. In addition, the AI will look 4 steps ahead to evaluate the player's best move, and then my AI chooses its own best move to maximize the winning chance.
+
+Q. How often did your computer program beat you, or your friends, or whoever tested it out for you?
+How would you improve it in the future?
+A. Almost 100% times. I only won once after more than 10 tests. Once I learn more about the minimax algorithm, I will see how to make the AI less smart to help players enjoy the game.
